@@ -23,14 +23,14 @@ export function Services() {
           {services.map(([number, title, copy], index) => (
             <article className={`service-card service-card--${index + 1}`} key={number}>
               {index === 0 ? (
-                <img className="service-card__image" src={marketIntelligenceImage} alt="Market intelligence dashboard" />
+                <img className="service-card__image" src={marketIntelligenceImage} alt="Market intelligence dashboard" loading="lazy" />
               ) : (
                 <>
                   {index === 1 && (
-                    <img className="service-card__background-image" src={secureExecutionImage} alt="" aria-hidden="true" />
+                    <img className="service-card__background-image" src={secureExecutionImage} alt="" aria-hidden="true" loading="lazy" />
                   )}
                   {index === 2 && (
-                    <img className="service-card__background-image" src={portfolioInsightImage} alt="" aria-hidden="true" />
+                    <img className="service-card__background-image" src={portfolioInsightImage} alt="" aria-hidden="true" loading="lazy" />
                   )}
                   <span>{number}</span>
                   <div className="service-card__visual">

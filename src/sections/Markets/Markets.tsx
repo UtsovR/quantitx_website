@@ -18,6 +18,7 @@ export function Markets() {
               src={selectedAssetsImage}
               alt="Selected digital asset market overview"
               className="selected-assets-image"
+              loading="lazy"
             />
           </div>
         </div>

@@ -16,7 +16,7 @@ export function Security() {
         </div>
 
         <div className="security-visual">
-          <img className="security-image" src={confidenceDesignImage} alt="Layered security illustration" />
+          <img className="security-image" src={confidenceDesignImage} alt="Layered security illustration" loading="lazy" />
         </div>
       </div>
     </section>
