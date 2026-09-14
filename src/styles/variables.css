@@ -1,0 +1,4 @@
+:root {
+  --white: #ffffff; --blue-50: #f7faff; --blue-100: #f2f7ff; --blue-150: #eaf2ff; --blue-200: #dbeafe; --blue-300: #93c5fd; --blue-400: #60a5fa; --blue-500: #3b82f6; --blue-600: #2563eb; --blue-700: #1d4ed8; --blue-800: #1e40af; --navy-900: #0f172a; --slate-700: #475569; --slate-500: #64748b;
+  --border: #dbeafe; --shadow: 0 24px 60px rgba(30, 64, 175, .1); --ease: cubic-bezier(.22, 1, .36, 1); --container: 1280px;
+}
